@@ -1,0 +1,76 @@
+cff-version: 1.2.0
+message: "Please cite sc-pcQTL using the metadata provided in this file."
+title: "sc-pcQTL: single-cell principal-component QTL workflow"
+abstract: >-
+  Curated analysis code for sc-pcQTL, a single-cell RNA-seq framework that
+  screens nearby gene pairs with a hurdle co-expression model, builds local
+  gene clusters, summarizes each cluster as principal-component QTL (pcQTL)
+  phenotypes, and compares them with single-gene eQTL and external-trait
+  colocalization in the OneK1K cohort.
+type: software
+license: MIT
+version: "1.0.0"
+date-released: "2026-06-25"
+repository-code: "https://github.com/ZhouLabGenetics/sc-pcQTL_code"
+keywords:
+  - single-cell RNA-seq
+  - co-expression
+  - hurdle model
+  - eQTL
+  - pcQTL
+  - colocalization
+authors:
+  - family-names: Zhang
+    given-names: Junkai
+    affiliation: >-
+      Stanley Center for Psychiatric Research, Broad Institute of MIT and
+      Harvard; Center for Genomic Medicine, Massachusetts General Hospital,
+      Harvard Medical School;
+      Department of Biostatistics, Harvard T.H. Chan School of Public Health
+  - family-names: Huang
+    given-names: Yi
+    affiliation: >-
+      Novo Nordisk Foundation Center for Genomic Mechanisms of Disease, Broad
+      Institute of MIT and Harvard; Broad Diabetes Initiative, Broad Institute
+      of MIT and Harvard; Program in Medical and Population Genetics, Broad
+      Institute of MIT and Harvard
+  - family-names: Claussnitzer
+    given-names: Melina
+    affiliation: >-
+      Center for Genomic Medicine, Massachusetts General Hospital, Harvard
+      Medical School; Novo Nordisk Foundation Center for Genomic Mechanisms of
+      Disease, Broad Institute of MIT and Harvard; Broad Diabetes Initiative,
+      Broad Institute of MIT and Harvard; Program in Medical and Population
+      Genetics, Broad Institute of MIT and Harvard
+  - family-names: Kanai
+    given-names: Masahiro
+    affiliation: >-
+      Program in Medical and Population Genetics, Broad Institute of MIT and
+      Harvard; Center for Computational and Integrative Biology, Massachusetts
+      General Hospital
+  - family-names: Zhou
+    given-names: Wei
+    email: wzhou@broadinstitute.org
+    affiliation: >-
+      Stanley Center for Psychiatric Research, Broad Institute of MIT and
+      Harvard; Center for Genomic Medicine, Massachusetts General Hospital,
+      Harvard Medical School;
+      Program in Medical and Population Genetics, Broad Institute of MIT and
+      Harvard
+preferred-citation:
+  type: article
+  title: >-
+    sc-pcQTL: hurdle-based co-expression modeling for multi-gene QTL mapping
+    in single-cell RNA-seq data
+  authors:
+    - family-names: Zhang
+      given-names: Junkai
+    - family-names: Huang
+      given-names: Yi
+    - family-names: Claussnitzer
+      given-names: Melina
+    - family-names: Kanai
+      given-names: Masahiro
+    - family-names: Zhou
+      given-names: Wei
+  year: 2026

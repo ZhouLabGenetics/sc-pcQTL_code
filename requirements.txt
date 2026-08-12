@@ -1,0 +1,19 @@
+# Python dependencies for the helper scripts in this repository.
+# The repository's own Python scripts (SMR I/O, S-LDSC annotation/task
+# building, TensorQTL summarization, and supplementary-table generation) use
+# NumPy, pandas, SciPy, and the Python standard library.
+#
+# Pin to the versions used in the study where reproducibility matters; the
+# floor below is a safe minimum. See docs/dependencies.md for the full
+# software environment, including R packages and external command-line tools.
+numpy>=1.23
+pandas>=1.5
+scipy>=1.9
+
+# NOTE: tensorQTL and LDSC are invoked as EXTERNAL tools with their own
+# environments and are intentionally NOT pinned here. Install them separately:
+#   - tensorqtl : https://github.com/broadinstitute/tensorqtl
+#   - ldsc      : https://github.com/bulik/ldsc  (provides ldsc.py, munge_sumstats.py)
+# Their executable/script paths are configured via environment variables in
+# config/example.env (LDSC_PYTHON, LDSC_PY, MUNGE_SUMSTATS) and the relevant
+# module scripts.

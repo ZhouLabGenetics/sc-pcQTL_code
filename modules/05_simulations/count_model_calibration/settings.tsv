@@ -1,0 +1,5 @@
+setting_label	count_dist	zero_dist	score_test
+count_poisson__zero_binomial__wald	poisson	binomial	FALSE
+count_poisson__zero_binomial__score	poisson	binomial	TRUE
+count_negbin__zero_binomial__wald	negbin	binomial	FALSE
+count_negbin__zero_binomial__score	negbin	binomial	TRUE

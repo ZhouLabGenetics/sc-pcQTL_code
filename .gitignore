@@ -1,0 +1,37 @@
+# Local environment files (keep example.env and paper_defaults.env tracked)
+config/local.env
+modules/01_pairwise_hurdle_clustering/config.R
+*.local.env
+.env
+
+# Runtime / generated artifacts — this release is source code only
+results/
+logs/
+log/
+cache/
+tmp/
+work/
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.Rproj.user/
+
+# Generated figures, tables, and compressed/binary outputs
+*.pdf
+*.png
+*.jpg
+*.tif
+*.tiff
+*.gz
+*.rda
+*.RData
+*.log
+*.out
+*.err
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*~
+*.swp

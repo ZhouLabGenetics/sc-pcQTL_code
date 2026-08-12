@@ -1,0 +1,15 @@
+celltype	eqtl_celltype	display_label	n_cells	include_primary	exclusion_reason
+b_in	B_IN	Immature/naive B	82068	TRUE	meets minimum cell-count threshold
+b_mem	B_Mem	B memory	48023	TRUE	meets minimum cell-count threshold
+cd4_et	CD4_ET	CD4 effector T	61786	TRUE	meets minimum cell-count threshold
+cd4_nc	CD4_NC	CD4 naive T	463528	TRUE	meets minimum cell-count threshold
+cd4_sox4	CD4_SOX4	CD4 SOX4 T	4065	FALSE	fewer than 10000 cells
+cd8_et	CD8_ET	CD8 effector T	205077	TRUE	meets minimum cell-count threshold
+cd8_nc	CD8_NC	CD8 naive T	133482	TRUE	meets minimum cell-count threshold
+cd8_s100b	CD8_S100B	CD8 S100B T	34528	TRUE	meets minimum cell-count threshold
+dc	DC	Dendritic	8690	FALSE	fewer than 10000 cells
+mono_c	Mono_C	Classical monocyte	38233	TRUE	meets minimum cell-count threshold
+mono_nc	Mono_NC	Non-classical monocyte	15166	TRUE	meets minimum cell-count threshold
+nk	NK	NK	159820	TRUE	meets minimum cell-count threshold
+nk_r	NK_R	NK recruiting	9677	FALSE	fewer than 10000 cells
+plasma	Plasma	Plasma	3625	FALSE	fewer than 10000 cells
